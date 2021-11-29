@@ -1,0 +1,18 @@
+Write your answers beneath each question below. Make sure you are in the src/Terminal directory!
+Please read the prompts carefully – Some questions will ask you to specify a terminal/UNIX command, others will ask for the output of a command.
+
+
+1. What terminal command would you use to find the file "sampleFile.c" in the current directory (Terminal)? Hint: Remember that on terminal, "." is a shortcut for the current directory.
+
+
+2. Below, paste the output of the following command: grep sum sampleFile.c
+
+
+3. What terminal command would you use to view the contents of the file "sampleFile.c" without explicitly opening the file?
+
+
+4. What commmand could you use to view the manual pages for the terminal command "ls" (for a description of the command and its options)?
+
+
+5. What command could you use to copy the contents of the file "sampleFile.c" to the file "copiedContents.c"? Hint: Use question 3's answer and direct the output to copiedContents.c.
+

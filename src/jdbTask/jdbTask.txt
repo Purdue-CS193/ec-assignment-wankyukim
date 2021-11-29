@@ -1,0 +1,28 @@
+
+Refer to the file called jdbTask.java in the src/jdbTask folder and write your responses here.
+A jdb quick guide can be found here: http://pages.cs.wisc.edu/~horwitz/jdb/jdb.html
+You can find jdb documentation here: https://docs.oracle.com/javase/7/docs/technotes/tools/windows/jdb.html
+
+For the prompts below, write the command corresponding to each instruction. Questions 1 and 5 are answered for you.
+
+1) Generate the jdbTask class for jdbTask.java (you must use the -g flag to debug with jdb):
+    javac -g jdbTask.java
+
+2) Run jdb on the generated jdbTask class:
+
+
+3) Set a breakpoint at line 9 in jdbTask.java:
+
+
+4) Set a breakpoint at the method fibonacciSequence of the jdbTask class:
+
+
+5) While using jdb, print value of i in method fibonacciSequence:
+    print i
+
+6) Now you are going to debug the method fibonacciArray using jdb. First run the program normally to see the output:
+    javac -g jdbTask.java
+    java jdbTask
+    Debug the resulting error by running jdb on the jdbTask class, setting breakpoints, printing variables, etc.
+
+    What line was causing the error? List the jdb commands you used to debug below:

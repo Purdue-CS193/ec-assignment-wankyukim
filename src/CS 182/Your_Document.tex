@@ -1,0 +1,55 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{CS 193 EC – Assignment for CS 182}
+% Replace with your name
+\author{yourName }
+% Replace with today's month
+\date{July 2020}
+
+\begin{document}
+
+\maketitle
+
+\section{Logical Equivalences}
+\begin{center}
+ Show that  $\neg $ ($p \to q$) $\equiv $ $p \land \neg q$ using a truth table
+\end{center}
+
+\begin{displaymath}  % start unumbered math environment
+  %
+  % Start a table in math mode.  The |c|c|c|c|c|c| string is a
+  % format string that says there will be 6 colunms in the table.  The
+  % c's indicate that the data in each column will be centered (use l
+  % for left justified and r for right justified).  The vertical bar
+  % means that lines will be drawn between columns.  The trailing
+  % \hline causes a horizontal line to be drawn across the top of the
+  % table.
+  %
+  \begin{array}{|c|c|c|c|c|c|}\hline
+    %
+    % Each row of the table consists of data separated by "&" symbols.
+    % Each row must end with "\\" to cause a newline.  A trailing
+    % \hline will cause a line to be drawn under the row.  A double
+    % \hline is often used to separate the table header from the rest
+    % of the table. 
+    %
+    % Replace each "-" with its corresponding truth value
+    % \mathbf{} bolds the value in the table
+    % Each resulting column should be in bold
+    %
+    
+    p & q & \neg p  & p \to q & \neg (p \to q) & p \land \neg q \\\hline
+    - & - & - & - & \mathbf{-} & \mathbf{-} \\\hline
+    - & - & - & - & \mathbf{-} & \mathbf{-}  \\\hline
+    - & - & - & - & \mathbf{-} & \mathbf{-}  \\\hline
+    - & - & - & - & \mathbf{-} & \mathbf{-}  \\\hline
+
+  \end{array}
+\end{displaymath}
+
+\section{Notes}
+\begin{flushleft}
+One of the things I (Cindy) really enjoyed about CS 182 is that the course isn't entirely technical based or programming specific. CS 182 teaches you how to think logically using deduction and mathematical induction. I hope you enjoy this course as much as I did, and as always, please reach out to your TAs and/or professors as early as possible. Best of luck to your second semester!
+\end{flushleft}
+\end{document}
