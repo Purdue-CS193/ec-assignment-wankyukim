@@ -57,7 +57,7 @@ https://forms.gle/11s6rvU6QNh3Nao6A
 - [x] *this is a sample checked task*
 - [ ] Pycharm Task           (3 points)
 - [ ] JDB Task               (3 points)
-- [ ] Code Standards Task    (2 points)
+- [x] Code Standards Task    (2 points)
 - [ ] Valgrind Task          (2 points)
 - [ ] CS182 Task             (3 points)
 - [ ] Terminal Commands Task (2 points)
